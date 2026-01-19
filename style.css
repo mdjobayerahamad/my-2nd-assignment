@@ -60,16 +60,74 @@ nav ul {
     color: #FFFFFF;
     background-position: center;
 }
+
 .bannar-container {
-  max-width: 1200px;
-  margin: 0 auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    gap: 100px; 
+    
 }
+.bannar-contant{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    transform: translateY(-00px);
+    gap: 0;
+    margin-bottom: 101px;
+    margin-left: 525px;
+    margin-right: 525px;
+    
+}
+.bannar-hedlline{
+    font-size: 60px;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.bannar-contant p{
+   width: 550px;
+}   
 
-/* .bannar-contant{
- display: flex;
- justify-content: center;
-} */
 
+.spotity-btn{
+    width: 201px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+    padding: 12px 20px 12px 20px;
+    border-radius: 10px;
+    color: #FFFFFF; 
+    background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 100%, #9100F8 100%);
+}
+.message-btn{
+width: 147px;
+height: 44px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap:8px;
+padding: 12px 20px 12px 20px;
+border-radius: 10px;
+border: 1px solid #00FF88;
+background-color:transparent;
+color: #00FF88;
+}
+.bannar-btn{
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+    transform: translateY(-25px,);
+   
+}
 .bannar-img{
     position: relative;
     width: 350px;
@@ -77,9 +135,9 @@ nav ul {
 
 }
 .bannar-img {
-    transform: translateY(-10px);
-    transform: translateX(97px);
+    transform: translateY(70px);
 }
+
 .bannar-img-1 {
 width: 100%;
 
