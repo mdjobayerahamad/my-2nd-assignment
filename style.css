@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* shared style  */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* navbar  */
+
+.navber{
+    background-color: #1A0B2E;
+}
+
+.nav-container{
+    display: flex ;
+    justify-content: space-between;
+    max-width: 1200px;
+    height: 92px;   
+    align-items: center;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+#tech-wave{
+    width: 219px;
+    height: 32px;
+}
+nav button{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border-radius: 10px;
+    padding: 12px 16px;
+    background: orangered;
+    
+
+    
+}
+nav button:hover {
+  transform: translateX(5px);
+  
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
