@@ -7,13 +7,16 @@
   font-weight: 0;
   font-style: normal;
 }
-
-/* navbar  */
-
 body{
     background-color: #1A0B2E;
 }
+.primary{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400%;
+}
 
+/* navbar  */
 .nav-container{
     display: flex ;
     justify-content: space-between;
@@ -160,6 +163,98 @@ width: 100%;
     right: 15px;
     width: 60px;
 }
+
+/* About section style  */
+.about-container{
+    width: 90%;
+    max-width: 1600px;
+    margin: 50px auto 120px auto;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .prodcast h1{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+}
+.prodcast p{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+ .prodcast-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+ .prodcast-info h1{
+    color: #00FF88;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+/* Facility style Section  */
+.facility-container{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+    margin: 180px auto 120px auto;
+    max-width: 1200px;
+    padding: 0 16px;
+    
+   
+}
+.img-one, .img-two, .img-three, .img-four, .img-five{
+    padding: 40px 40px ;
+    background-color: #rgba(53, 17, 101, 0.4);
+    border-radius:40px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    
+}
+    
+.facility-heading h1{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+.img-one{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.img-two{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.img-three{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.img-four{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.img-five{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+
 
 /* Responsive  */
 
