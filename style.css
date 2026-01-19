@@ -164,6 +164,7 @@ width: 100%;
 /* Responsive  */
 
 @media screen and (max-width:576px) {
+    /* navbar  */
    nav ul {
         display: none;
     }
@@ -173,5 +174,42 @@ width: 100%;
     .nav-hamburger{
     display: inline;
 }
+
+/* bannar  */
+  .bannar-container {
+      flex-direction: column;
+      gap: 40px;
+  }
+  .bannar-contant {
+      width: 90%;
+      margin: 0 auto;
+      transform: translateY(0);
+  }
+  .bannar-hedlline {
+      font-size: 36px;
+      margin-bottom: 12px;
+  }
+  .bannar-contant p {
+      font-size: 14px;
+      max-width: 100%;
+      line-height: 1.4;
+  }
+  .bannar-btn {
+      flex-direction: row;
+      gap: 12px;
+      margin-top: 16px;
+      transform: none;
+  }
+  .bannar-img {
+      width: 250px;
+      height: 250px;
+      transform: translateY(0);
+  }
+  .bannar-img-2 {
+      width: 80px;
+  }
+  .bannar-img-3 {
+      width: 40px;
+  }
 }
 
