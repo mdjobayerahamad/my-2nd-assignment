@@ -222,7 +222,7 @@ width: 100%;
 }
 .img-one, .img-two, .img-three, .img-four, .img-five{
     padding: 40px 40px ;
-    background-color: #rgba(53, 17, 101, 0.4);
+    background-color: rgba(53, 17, 101, 0.4);
     border-radius: 40px;
     box-shadow:0 8px 24px rgba(0, 0, 0, 0.35);
     
@@ -308,6 +308,98 @@ width: 100%;
     font-size: 16px;
     color: #00FF88;
 }
+/* host section style  */
+.host{
+        max-width: 1200px;
+        margin: 120px auto;
+}
+.host-title{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.host-container{
+    max-width: 1200px;
+    display: flex;
+    gap: 40px;
+    background-color: #250D44;
+    color: #FFFFFF;
+    align-items: center;
+    border-radius: 20px;
+    padding: 48px 40px;
+}
+
+.alex-kumar img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.host-info{
+    max-width: 650px;
+}
+.host-info h2{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.host-info p{
+    line-height: 1.6;
+    opacity: 0.9;
+}
+.info-socil span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.info-socil{
+    display: flex;
+    gap: 8px;
+}
+.info-socil img{
+    width: 18px;
+    height: 18px;
+}
+
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    background-image: url(./assets/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 20px 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.footer-logo img{
+    width: 300px;
+    margin-bottom: 48px;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 32px;
+}
+.footer-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
 
 
 /* Responsive  */
@@ -405,4 +497,41 @@ width: 100%;
         width: 100%;
         height: auto;
     }
+    /* host section  */
+    .host{
+      margin: 80px 16px;
+  }
+  .host-title h1{
+      font-size: 28px;
+      line-height: 1.3;
+  }
+  .host-container{
+      flex-direction: column;
+      padding: 24px 16px;
+      gap: 24px;
+      text-align: center;
+  }
+   .alex-kumar img{
+      width: 140px;
+      height: 140px;
+      border-radius: 12px;
+  }
+  .host-info{
+      max-width: 100%;
+  }
+
+  .host-info p{
+      font-size: 14px;
+      line-height: 1.6;
+  }
+  .info-socil{
+      justify-content: center;
+      margin-top: 12px;
+  }
+
+  .info-socil img{
+      width: 36px;
+      height: 36px;
+      padding: 6px;
+  }
 }
